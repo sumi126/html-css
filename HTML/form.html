@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form fill up</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1 style="text-align: center;">Sign up Form</h1>
+        <hr>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter name"><br>
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="email" placeholder="Enter mail" required><br> 
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter pass"><br>
+
+        <label for="phn">Phone:</label>
+        <select name="code" id="phn">
+            <option value="+880">+880</option>
+            <option value="+110">+110</option>
+            <option value="+999">+999</option>
+            <input type="number" id="phn" name="phn" placeholder="Enter phone"><br>
+        </select>
+       
+        <label for="cnt">Country</label>
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="Canada"></option>
+        </datalist>
+        <br>
+        Gender:
+        <input type="radio" id="gnd1" name="male" >
+        <label for="gnd1">Male</label>
+        <input type="radio" id="gnd2" name="male" >
+        <label for="gnd1">Femail</label><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dateofbirth" ><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" ><br>
+
+        <label for="clr">Color</label>
+        <input type="color" id="clr" name="color" ><br>
+
+        <label for="chose">Choose file:</label>
+        <input type="file" id="chose" name="chose"><br>
+
+        <input type="checkbox" id="check1" name="check">
+        <label for="check1">I have a Bike</label>
+        <input type="checkbox" id="check2" name="check">
+        <label for="check2">I have a Bicycle</label><br>
+        
+        <textarea name="comment"  cols="30" rows="10">Comment here</textarea><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset"><br>
+    </form>
+    <marquee >Form fill up</marquee>
+</body>
+</html>

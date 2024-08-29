@@ -1,0 +1,43 @@
+a:link{
+    color:black;
+    text-decoration: none;
+    background-color: blue;
+}
+a:visited{
+    color: yellow;
+    background-color: brown;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+a:active{
+    color: green;
+}
+
+ul{
+       list-style-type: decimal-leading-zero;
+       list-style-position: inside;
+       list-style-image: url();
+       font-family:Arial, Helvetica, sans-serif;
+       font-size: 2vw;
+}
+ ul li::first-letter{
+    color: yellow;
+ }
+ ul li::before{
+    content:url(nur\ 2.jpg);
+    padding-right: 10px;
+ }
+ .social{
+    width: 65px;
+    height: 60px;
+    background-image: url(social.png);
+    background-position: -15px -97px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    border-radius: 50%;
+ }
+ .social:hover{
+    background-position: -15px -166px;
+ }

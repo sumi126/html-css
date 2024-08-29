@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+}
+body{
+    background-color: black;
+    background-image: url(samiul.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    
+}
+.p1{ 
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+#samu{
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+#p2{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+} 
